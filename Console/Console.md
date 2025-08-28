@@ -44,4 +44,8 @@ Pour créer un componant
 ```bash
 symfony console make:twig-comp
 ```
+ # Symfony
+ Debug - Container, router etc.
+ Différence de schéma - Gestion de la conf Doctrine (Doc schema validate et update)
+
  
