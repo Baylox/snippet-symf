@@ -38,3 +38,10 @@ Force l'update du mapping Doctrine (NE PAS FAIRE EN PROD)
 ```bash
 symfony console d:s:u --force
 ```
+
+# Twig
+Pour créer un componant
+```bash
+symfony console make:twig-comp
+```
+ 
