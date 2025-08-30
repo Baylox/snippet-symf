@@ -40,6 +40,11 @@ Avec **rechargement automatique** (purge + reload sans poser de questions) :
 php bin/console doctrine:fixtures:load -n
 ```
 
+**Charge Factory/Story** dans la BDD :
+```bash
+php bin/console foundry:load-fixtures
+```
+
 ## Vérifier la synchronisation du schéma
 **Valide** que les entités et la base sont cohérentes.
 ```bash
