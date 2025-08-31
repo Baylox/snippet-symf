@@ -46,7 +46,7 @@ php bin/console make:message-handler <NomDuHandler>
 ```
 
 - Route tes messages dans messenger.yaml (ex. transport async).
-- Lancement worker : php bin/console messenger:consume <transport> -vv.
+- Lancement worker : php bin/console messenger:consume <transport.> -vv.
 - Sécurité : valide les payloads (DTO stricts), pas de désérialisation d’objets arbitraires.
 - Robustesse : configure retry, failure transport et surveille via messenger:failed:*.
 
