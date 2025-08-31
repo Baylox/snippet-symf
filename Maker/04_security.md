@@ -1,3 +1,5 @@
+## Sécurité
+
 ## Créer un utilisateur
 Génère une **entité User** conforme à UserInterface et prête pour l’authentification : 
 ```bash
